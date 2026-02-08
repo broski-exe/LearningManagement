@@ -73,7 +73,7 @@ namespace LearningManagement
                 }
                 else
                 {
-                    File.AppendAllText(fileName, $"\nFile is accessed on {DateTime.Now}");
+                    File.AppendAllText(fileName, $"\nFile is accessed on {DateTime.Now}\n{message}");
                     Console.WriteLine("File appended successfully");
                 }
 
